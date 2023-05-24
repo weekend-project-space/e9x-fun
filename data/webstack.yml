@@ -54,6 +54,10 @@
       logo: github.jpg
       url: https://github.com/zadam/trilium
       description: 使用 Trilium Notes 建立您的个人知识库。
+    - title: e9x
+      logo: e9x.png
+      url: https://github.com/weekend-project-space/e9x-fun
+      description: 一键免费部署自己的导航。
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
   list:

@@ -95,21 +95,18 @@
         localStorage.setItem('night', !isNight)
     }
     function setNight(isNight) {
-        console.log(isNight)
         if (isNight) {
-            console.log('---', isNight)
             $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageD }})")
             document.body.classList.remove('io-grey-mode');
             document.body.classList.add('io-black-mode');
-            // $(".switch-dark-mode").attr("data-original-title", "夜间模式");
+            $(".switch-dark-mode").attr("data-original-title", "日间模式");
             $(".mode-ico").removeClass("icon-light");
             $(".mode-ico").addClass("icon-night");
         } else {
-            console.log('---1', isNight)
             $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");
             document.body.classList.remove('io-black-mode');
             document.body.classList.add('io-grey-mode');
-            // $(".switch-dark-mode").attr("data-original-title", "日间模式");
+            $(".switch-dark-mode").attr("data-original-title", "夜间模式");
             $(".mode-ico").removeClass("icon-night");
             $(".mode-ico").addClass("icon-light");
         }
