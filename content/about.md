@@ -4,4 +4,4 @@ date: 2020-07-28T19:27:08+08:00
 draft: false
 ---
 
-> e9x.fun = 10\**9*fun = 更多有趣
+> e9x.fun = e^10 \*fun = 超有趣

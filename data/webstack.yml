@@ -1,8 +1,7 @@
 ---
-
 - taxonomy: 开源自建
   icon: far fa-star
-  links: 
+  links:
     - title: Cloudreve
       logo: "https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png"
       url: https://github.com/cloudreve/Cloudreve
@@ -44,17 +43,17 @@
       url: https://github.com/FFmpeg/FFmpeg
       description: FFmpeg 是用于处理音频、视频、字幕和相关元数据等多媒体内容的库和工具的集合。
     - title: notea
-      logo: Medialoot.jpg
+      logo: github.jpg
       url: https://github.com/notea-org/notea
       description: 存储在 S3 上的自托管笔记应用程序。
     - title: laverna
-      logo: Medialoot.jpg
+      logo: github.jpg
       url: https://github.com/Laverna/laverna
       description: Laverna 是一个 JavaScript 笔记应用程序，具有 Markdown 编辑器和加密支持。将其视为 Evernote 的开源替代品。
     - title: trilium
       logo: github.jpg
       url: https://github.com/zadam/trilium
-      description: 使用 Trilium Notes 建立您的个人知识库。      
+      description: 使用 Trilium Notes 建立您的个人知识库。
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
   list:
@@ -78,21 +77,20 @@
           description: 免费在线作图、实时协作。
         - title: 幕布
           logo: mubu.png
-          url:  https://mubu.com/app
+          url: https://mubu.com/app
           description: 幕布，在线的一款思维概要整理工具，将思维以树形结构方式快速整理，书写成文。
         - title: 印象笔记
           logo: yinxiang.jpeg
-          url:  https://yinxiang.com/
+          url: https://yinxiang.com/
           description: 帮助您捕捉灵感、项目和待办事项列表并确定其优先级，确保毫无疏漏。
         - title: github
           logo: github.jpg
-          url:  https://github.com/
+          url: https://github.com/
           description: 线上源码托管网站。
         - title: json格式化
           logo: webfollow.png
-          url:  https://weekendproject.online/json.html
-          description: json格式化。         
-          
+          url: https://weekendproject.online/json.html
+          description: json格式化。
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
@@ -135,8 +133,7 @@
           logo: QQ音乐.jpg
           url: https://www.in2s.net/
           description: 下载音乐。
-         
- 
+
         - title: 电影天堂（DYTT8）
           logo: 电影天堂.png
           url: https://www.dytt8.net/index.htm
@@ -155,12 +152,10 @@
           logo: 战地之王.png
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
-   
-      
 
 - taxonomy: 开发设计
   icon: fas fa-tools fa-lg
-  list: 
+  list:
     - term: 图形创意
       links:
         - title: photoshop
@@ -238,7 +233,7 @@
         - title: webgradients
           url: https://webgradients.com/
           logo: webgradients.png
-          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. 
+          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website.
         - title: grabient
           url: https://www.grabient.com/
           logo: grabient.png
@@ -309,7 +304,7 @@
           url: https://www.gaoding.com
           logo: gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
-        
+
     - term: 谷歌插件
       links:
         - title: wappalyzer
@@ -337,10 +332,9 @@
           logo: mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
 
-
 - taxonomy: 资讯学习
   icon: fas fa-pencil-alt fa-lg
-  list: 
+  list:
     - term: 资讯书籍
       links:
         - title: 微信读书
@@ -375,7 +369,7 @@
           description: 阮一峰，科技爱好者周刊。
         - title: 酷壳
           url: https://www.coolshell.cn/
-          logo: ''
+          logo: ""
           description: 酷 壳 – CoolShell。
     - term: 设计规范
       links:
@@ -386,7 +380,7 @@
         - title: Awesome design systems
           url: https://github.com/alexpate/awesome-design-systems
           logo: awesome_design_systems.png
-          description:  A collection of awesome design systems.
+          description: A collection of awesome design systems.
         - title: Material Design
           url: https://material.io/guidelines/
           logo: Material_Design.png
@@ -417,4 +411,3 @@
           url: https://www.imooc.com/
           logo: imooc.png
           description: 程序员的梦工厂（有UI课程）。
-        

@@ -1,31 +1,49 @@
 {{ partial "header.html" . }}
 
+
 {{ partial "content_header.html" . }}
 
+{{ partial "content_search.html" . }}
+
 <body class="page-body boxed-container">
-    <main role="main" class="flex-shrink-0">
-    <div class="container">
-        <h1 class="mt-5">{{ .Title }}</h1>
-        <div class="content">
-            {{ .Content | markdownify | safeHTML }}
+    <main role=" main" class="flex-shrink-0">
+        <div class="container">
+            <h1 class="mt-5">{{ .Title }}</h1>
+            <div class="content">
+                {{ .Content | markdownify | safeHTML }}
+            </div>
         </div>
-    </div>
     </main>
 
     <style>
         .content {
             font-size: 1.25rem;
-          }
-          
-          .content h1,
-          .content h2,
-          .content h3,
-          .content h4 {
+        }
+
+        .content h1,
+        .content h2,
+        .content h3,
+        .content h4 {
             margin: 15px 10px 5px;
-          }
-          
+        }
+
+        .main-content {
+            margin-left: 0;
+        }
+
+        .page-header {
+            left: 0;
+        }
+
+        .header-mini-btn {
+            width: 0;
+        }
+
+        .header-mini-btn label {
+            display: none;
+        }
     </style>
 
-{{ partial "content_footer.html" . }}
-
-{{ partial "footer.html" . }}
+    {{ partial "content_footer.html" . }}
+    {{ partial "modal_search.html" . }}
+    {{ partial "footer.html" . }}
