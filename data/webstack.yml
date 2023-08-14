@@ -62,6 +62,10 @@
       logo: web-tv.png
       url: https://github.com/weekend-project-space/web-tv
       description: 一键免费部署自己的在线小电视。
+    - title: web fm
+      logo: 01234.png
+      url: https://github.com/weekend-project-space/fm-online
+      description: 一键免费部署自己的在线FM，收听全球广播。
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
   list:
